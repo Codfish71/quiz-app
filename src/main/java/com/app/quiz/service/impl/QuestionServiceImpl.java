@@ -5,6 +5,9 @@ import com.app.quiz.repository.QuestionRepository;
 import com.app.quiz.service.IQuestionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -35,13 +38,26 @@ public class QuestionServiceImpl implements IQuestionService {
     }
 
     @Override
-    public Question updateQuestion(Long id, Question question) {
+    public Question updateQuestion(Long id, Question question) throws ChangeSetPersister.NotFoundException {
+        Optional<Question> questionOptional = questionRepository.findById(id);
+        if(questionOptional.isPresent()) {
+            Question questionFromDB = questionOptional.get();
+            questionFromDB.setQuestion(question.getQuestion());
+            questionFromDB.setQuestionType(question.getQuestionType());
+            questionFromDB.setAnswers(question.getAnswers());
+            questionFromDB.setChoices(question.getChoices());
+            questionFromDB.setSubject(question.getSubject());
+            questionFromDB.setDifficulty(question.getDifficulty());
+            questionRepository.save(questionFromDB);
+        } else {
+            throw new ChangeSetPersister.NotFoundException();
+        }
         return null;
     }
 
     @Override
     public void deleteQuestion(Long id) {
-
+        questionRepository.deleteById(id);
     }
 
     @Override
@@ -56,6 +72,8 @@ public class QuestionServiceImpl implements IQuestionService {
 
     @Override
     public List<Question> getQuestionsForSubject(Integer numberOfQuestions, String subject) {
-        return List.of();
+        Pageable pageable = PageRequest.of(0, numberOfQuestions);
+
+        return questionRepository.findBySubject(subject, pageable).getContent();
     }
 }

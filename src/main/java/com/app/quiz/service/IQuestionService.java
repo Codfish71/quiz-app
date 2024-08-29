@@ -1,6 +1,7 @@
 package com.app.quiz.service;
 
 import com.app.quiz.model.quiz.Question;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +16,7 @@ public interface IQuestionService {
 
     Optional<Question> getQuestionById(Long id);
 
-    Question updateQuestion(Long id, Question question);
+    Question updateQuestion(Long id, Question question) throws ChangeSetPersister.NotFoundException;
 
     void deleteQuestion(Long id);
 
