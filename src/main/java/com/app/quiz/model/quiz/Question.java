@@ -3,7 +3,6 @@ package com.app.quiz.model.quiz;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.*;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,6 +15,7 @@ public class Question {
     private Long id;
 
     @NotBlank
+    @Column(name = "question", unique=true)
     private String question;
 
     @NotBlank
