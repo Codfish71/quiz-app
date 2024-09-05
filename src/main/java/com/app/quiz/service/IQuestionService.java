@@ -1,6 +1,7 @@
 package com.app.quiz.service;
 
 import com.app.quiz.model.quiz.Question;
+import jakarta.validation.Valid;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
@@ -26,4 +27,5 @@ public interface IQuestionService {
 
     List<Question> getQuestionsForSubject(Integer numberOfQuestions, String subject);
 
+    List<Question> createListOfQuestions(@Valid List<Question> questionList);
 }

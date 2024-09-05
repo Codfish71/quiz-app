@@ -76,4 +76,9 @@ public class QuestionServiceImpl implements IQuestionService {
 
         return questionRepository.findBySubject(subject, pageable).getContent();
     }
+
+    @Override
+    public List<Question> createListOfQuestions(List<Question> questionList) {
+        return questionRepository.saveAll(questionList);
+    }
 }

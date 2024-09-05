@@ -24,6 +24,13 @@ public class QuestionController {
         return ResponseEntity.status(HttpStatus.CREATED).body(createdQuestion);
     }
 
+    @PostMapping("saveallquestions")
+    public ResponseEntity<List<Question>> createQuestionList(@Valid @RequestBody List<Question> questionList) {
+        List<Question> questions = questionService.createListOfQuestions(questionList);
+        return ResponseEntity.status(HttpStatus.CREATED).body(questions);
+
+    }
+
     @GetMapping("/getallquestions")
     public ResponseEntity<List<Question>> getAllQuestions() {
         return ResponseEntity.status(HttpStatus.OK).body(questionService.getAllQuestions());

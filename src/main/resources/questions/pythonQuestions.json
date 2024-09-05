@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which of the following is the correct extension for Python files?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      ".py",
+      ".python",
+      ".pt",
+      ".pyt"
+    ],
+    "answers": [
+      ".py"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the output of the following code: `print(type([]))`?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "<class 'list'>",
+      "<class 'tuple'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "answers": [
+      "<class 'list'>"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "function",
+      "def",
+      "fun",
+      "define"
+    ],
+    "answers": [
+      "def"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following data types is immutable in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "List",
+      "Dictionary",
+      "Set",
+      "Tuple"
+    ],
+    "answers": [
+      "Tuple"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What will be the output of the following code: `print(2 ** 3)`?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "16"
+    ],
+    "answers": [
+      "8"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the `len()` function do in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "Returns the length of an object",
+      "Returns the maximum value",
+      "Returns the minimum value",
+      "Returns the sum of all values"
+    ],
+    "answers": [
+      "Returns the length of an object"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is used to create an empty set in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "{}",
+      "set()",
+      "[]",
+      "None"
+    ],
+    "answers": [
+      "set()"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What will the expression `3 <= 2` return in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answers": [
+      "False"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following methods is used to add an element to a set in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "add()",
+      "append()",
+      "insert()",
+      "update()"
+    ],
+    "answers": [
+      "add()"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What will be the output of the following code: `bool([])`?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answers": [
+      "False"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is the correct way to handle exceptions in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "try/except",
+      "try/catch",
+      "if/else",
+      "for/except"
+    ],
+    "answers": [
+      "try/except"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the `break` statement do in a loop?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "Skips the current iteration",
+      "Exits the loop",
+      "Restarts the loop",
+      "Continues to the next iteration"
+    ],
+    "answers": [
+      "Exits the loop"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is not a core data type in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "List",
+      "Dictionary",
+      "Class",
+      "Tuple"
+    ],
+    "answers": [
+      "Class"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a dictionary in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "{}",
+      "[]",
+      "set()",
+      "dict()"
+    ],
+    "answers": [
+      "{}"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is the correct way to import a module in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "import module",
+      "include module",
+      "from module import *",
+      "using module"
+    ],
+    "answers": [
+      "import module"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the result of `10 / 3` in Python 3?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "3",
+      "3.0",
+      "3.3333333333333335",
+      "None"
+    ],
+    "answers": [
+      "3.3333333333333335"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "How can you copy an object in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "copy.copy()",
+      "object.copy()",
+      "copy()",
+      "object.copy"
+    ],
+    "answers": [
+      "copy.copy()"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following functions can be used to find the length of a string in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "len()",
+      "size()",
+      "length()",
+      "str_len()"
+    ],
+    "answers": [
+      "len()"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What will be the output of the following code: `print(3 * '5')`?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "15",
+      "555",
+      "TypeError",
+      "Error"
+    ],
+    "answers": [
+      "555"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between `is` and `==` in Python?",
+    "subject": "Python",
+    "questionType": "Single Answer",
+    "choices": [
+      "`is` checks for object identity, `==` checks for equality",
+      "`is` checks for equality, `==` checks for object identity",
+      "Both check for equality",
+      "Both check for object identity"
+    ],
+    "answers": [
+      "`is` checks for object identity, `==` checks for equality"
+    ],
+    "difficulty": "medium"
+  }
+]

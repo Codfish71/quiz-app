@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the correct syntax to print a message in the console in JavaScript?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "echo 'Hello World';",
+      "console.log('Hello World');",
+      "print('Hello World');",
+      "document.write('Hello World');"
+    ],
+    "answers": [
+      "console.log('Hello World');"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is not a valid JavaScript data type?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "String",
+      "Number",
+      "Float",
+      "Boolean"
+    ],
+    "answers": [
+      "Float"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "Microsoft",
+      "Sun Microsystems",
+      "Netscape",
+      "Oracle"
+    ],
+    "answers": [
+      "Netscape"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "How can you create a function in JavaScript?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "function = myFunction()",
+      "function:myFunction()",
+      "function myFunction()",
+      "function => myFunction()"
+    ],
+    "answers": [
+      "function myFunction()"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a JavaScript framework?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "Laravel",
+      "React",
+      "Django",
+      "Flask"
+    ],
+    "answers": [
+      "React"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which operator is used to assign a value to a variable in JavaScript?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "=",
+      "-",
+      "*",
+      "/"
+    ],
+    "answers": [
+      "="
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What will be the result of the following expression: '5' + 3?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "53",
+      "8",
+      "35",
+      "Error"
+    ],
+    "answers": [
+      "53"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does '===' operator do in JavaScript?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "Assigns a value",
+      "Compares both value and type",
+      "Compares only value",
+      "Checks if both variables are objects"
+    ],
+    "answers": [
+      "Compares both value and type"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which method is used to convert a JSON string into a JavaScript object?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.objectify()"
+    ],
+    "answers": [
+      "JSON.parse()"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following will write the message 'Hello World' in an alert box?",
+    "subject": "JavaScript",
+    "questionType": "Single Answer",
+    "choices": [
+      "msg('Hello World');",
+      "alertBox('Hello World');",
+      "msgBox('Hello World');",
+      "alert('Hello World');"
+    ],
+    "answers": [
+      "alert('Hello World');"
+    ],
+    "difficulty": "easy"
+  }
+]

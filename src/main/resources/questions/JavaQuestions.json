@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which of the following is not a keyword in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "static",
+      "Boolean",
+      "void",
+      "private"
+    ],
+    "answers": [
+      "Boolean"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the default value of an instance variable in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "null",
+      "0",
+      "Depends on the data type",
+      "undefined"
+    ],
+    "answers": [
+      "Depends on the data type"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which method is called when an object is created in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "start()",
+      "constructor()",
+      "new()",
+      "init()"
+    ],
+    "answers": [
+      "constructor()"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these access specifiers can be used for a class in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "public",
+      "protected",
+      "private",
+      "All of the above"
+    ],
+    "answers": [
+      "public"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a valid declaration of a package in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "package com.myapp;",
+      "package: com.myapp;",
+      "package=com.myapp;",
+      "pack com.myapp;"
+    ],
+    "answers": [
+      "package com.myapp;"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is not a valid constructor in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "public void MyClass()",
+      "public MyClass()",
+      "MyClass()",
+      "private MyClass()"
+    ],
+    "answers": [
+      "public void MyClass()"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the size of an int variable in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answers": [
+      "32 bits"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is used to read input from the console in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Scanner",
+      "InputStream",
+      "BufferedReader",
+      "System.in"
+    ],
+    "answers": [
+      "Scanner"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the 'static' keyword mean in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "The method can be overridden",
+      "The method is associated with the class rather than an instance",
+      "The method cannot be called",
+      "The method is final"
+    ],
+    "answers": [
+      "The method is associated with the class rather than an instance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which method must be implemented by all threads in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "wait()",
+      "start()",
+      "run()",
+      "sleep()"
+    ],
+    "answers": [
+      "run()"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following are checked exceptions in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "NullPointerException",
+      "IOException",
+      "ArrayIndexOutOfBoundsException",
+      "ArithmeticException"
+    ],
+    "answers": [
+      "IOException"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the base class of all exceptions in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Error",
+      "Throwable",
+      "RuntimeException",
+      "Exception"
+    ],
+    "answers": [
+      "Throwable"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is true about abstract classes in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "An abstract class cannot have constructors",
+      "An abstract class can have both abstract and non-abstract methods",
+      "An abstract class must have only abstract methods",
+      "An abstract class cannot have instance variables"
+    ],
+    "answers": [
+      "An abstract class can have both abstract and non-abstract methods"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these are not allowed in a static method?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Calling other static methods",
+      "Accessing instance variables",
+      "Creating static variables",
+      "Returning values"
+    ],
+    "answers": [
+      "Accessing instance variables"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is a marker interface?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Runnable",
+      "Serializable",
+      "Comparable",
+      "Cloneable"
+    ],
+    "answers": [
+      "Serializable"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is true about 'this' keyword in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "'this' can be used to refer to the current object instance",
+      "'this' can be used in static methods",
+      "'this' is used to refer to the parent class",
+      "'this' is used to access private methods only"
+    ],
+    "answers": [
+      "'this' can be used to refer to the current object instance"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is not a feature of Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Object-Oriented",
+      "Platform-Dependent",
+      "Multithreaded",
+      "Secure"
+    ],
+    "answers": [
+      "Platform-Dependent"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is used to create an array in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "Array arr = new Array();",
+      "int[] arr = new int[10];",
+      "arr = new Array[10];",
+      "Array arr[10] = new int;"
+    ],
+    "answers": [
+      "int[] arr = new int[10];"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following are primitive data types in Java?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "int, float, String",
+      "int, boolean, char",
+      "boolean, char, Class",
+      "String, char, int"
+    ],
+    "answers": [
+      "int, boolean, char"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following loops is guaranteed to execute at least once?",
+    "subject": "Java",
+    "questionType": "Single Answer",
+    "choices": [
+      "for loop",
+      "while loop",
+      "do-while loop",
+      "foreach loop"
+    ],
+    "answers": [
+      "do-while loop"
+    ],
+    "difficulty": "easy"
+  }
+]
