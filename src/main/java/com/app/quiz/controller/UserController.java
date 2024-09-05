@@ -29,7 +29,7 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    @GetMapping(path = "/getallusers", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(path = "/getallusers")
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
