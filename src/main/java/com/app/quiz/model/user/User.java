@@ -3,6 +3,7 @@ package com.app.quiz.model.user;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.Objects;
 import java.util.Set;
@@ -24,7 +25,7 @@ public class User {
 
     @NotBlank
     @Email
-    @Column(length = 60)
+    @Column(length = 60, unique = true)
     private String userEmail;
 
     @NotBlank
@@ -32,9 +33,11 @@ public class User {
     private String userPassword;
 
     @Column(length = 10)
+    @NotBlank
     private String userGender;
 
-    @Column(length = 10)
+    @Column(length = 10, unique = true)
+    @NotNull
     private Long mobileNumber;
 
     @ElementCollection

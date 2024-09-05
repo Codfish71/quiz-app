@@ -1,12 +1,12 @@
 package com.app.quiz.service;
 
 import com.app.quiz.model.user.User;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
+
+import java.util.List;
 
 public interface IUserService {
 
-    Mono<User> saveUser(User user);
+    User saveUser(User user);
 
-    Flux<User> getAllUsers();
+    List<User> getAllUsers();
 }
