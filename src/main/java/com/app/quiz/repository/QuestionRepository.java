@@ -12,4 +12,10 @@ import java.net.ContentHandler;
 public interface QuestionRepository extends JpaRepository<Question, Long> {
 
     Page<Question> findBySubject(String subject, Pageable pageable);
+
+    Page<Question> findByTopic(String topic, Pageable pageable);
+
+    Page<Question> findBySubjectAndTopic(String subject, String topic, Pageable pageable);
+
+
 }

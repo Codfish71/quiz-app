@@ -11,15 +11,18 @@ import java.util.Objects;
 public class Question {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @NotBlank
-    @Column(name = "question", unique=true)
+    @Column(name = "question", unique = true)
     private String question;
 
     @NotBlank
     private String subject;
+
+    @NotBlank
+    private String topic;
 
     @NotBlank
     private String questionType;
@@ -35,7 +38,7 @@ public class Question {
     @ElementCollection
     private List<String> answers;
 
-    public Question(Long id, String question, String subject, String questionType, List<String> choices, List<String> answers, String difficulty) {
+    public Question(Long id, String question, String subject, String questionType, List<String> choices, List<String> answers, String difficulty, String topic) {
         this.id = id;
         this.question = question;
         this.subject = subject;
@@ -43,6 +46,7 @@ public class Question {
         this.choices = choices;
         this.answers = answers;
         this.difficulty = difficulty;
+        this.topic = topic;
     }
 
     public Question() {
@@ -102,6 +106,14 @@ public class Question {
 
     public void setDifficulty(String difficulty) {
         this.difficulty = difficulty;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
     }
 
     @Override
